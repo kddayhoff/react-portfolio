@@ -1,19 +1,18 @@
   
   body {
-    background: url(./assets/images/train.jpeg) no-repeat center center fixed;
+    background: url(/assets/train.jpeg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     width: 100;
-    overflow: hidden;
-    position: fixed; 
+    position: absolute; 
     top: 0; 
     left: 0; 
 
-  /* Preserve aspet ratio */
+  /* Preserve aspect ratio */
     min-width: 100%;
     min-height: 100%;
-  }
-
+    margin: 50px;
   
+  }
 
   

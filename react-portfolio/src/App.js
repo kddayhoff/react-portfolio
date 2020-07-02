@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import About from "./components/About/About";
 import ContactCard from "./components/ContactCard/Contact";
-import Project from "./components/ProjectCard/ProjectCard"
+import Project from "./components/ProjectCardContent";
 import "./assets/style.css";
 import "./App.css";
 
