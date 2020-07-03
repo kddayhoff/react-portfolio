@@ -1,6 +1,6 @@
   
   body {
-    background: url(/assets/train.jpeg) no-repeat center center fixed;
+    background: url(./assets/images/train.jpeg) no-repeat center center fixed;
     background-size: cover;
     position: absolute; 
     padding-bottom: 70px;
