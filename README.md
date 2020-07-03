@@ -1,6 +1,8 @@
 # React Portfolio
 This page is created to demonstrate new React JS skills
 
+https://kddayhoff.github.io/react-portfolio/
+
 
 ## Technology
 
