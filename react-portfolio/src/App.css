@@ -2,17 +2,31 @@
   body {
     background: url(/assets/train.jpeg) no-repeat center center fixed;
     background-size: cover;
-    height: 100%;
-    width: 100;
     position: absolute; 
-    top: 0; 
-    left: 0; 
+    padding-bottom: 70px;
+    
 
   /* Preserve aspect ratio */
     min-width: 100%;
     min-height: 100%;
-    margin: 50px;
-  
+    /* margin: 50px; */
+    
   }
+  a {
+    color: #14a08d;
+  }
+
+  
+  /* mouse over link */
+  a:hover {
+    color: #1c7894
+    
+  }
+  
+  /* selected link */
+  a:active {
+    color: #57606f;
+  }
+  
 
   
