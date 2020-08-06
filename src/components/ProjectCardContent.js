@@ -4,7 +4,8 @@ import ProjectCard from './ProjectCard/ProjectCard';
 import Container from 'react-bootstrap/Container';
 
 
-const projects = [{
+const projects = [
+  {
     id: 1,
     title: "Route 404",
     image: require("../assets/images/route-404.png"),
@@ -36,14 +37,8 @@ const projects = [{
   live: "https://kddayhoff.github.io/Random-Password-Generator/",
   repo: "https://github.com/kddayhoff/Random-Password-Generator"
   },
-  {
-  id: 5,
-  title: "Weather Dashboard App",
-  image: require("../assets/images/weather-dashboard.png"),
-  description: "Keep your thoughts organized in one place with this NodeJs and Express application",
-  live: "https://kddayhoff.github.io/Weather-Dashboard/",
-  repo: "https://github.com/kddayhoff/Weather-Dashboard"
-  },
+  // {
+  // s
   {
   id: 6,
   title: "Notetaker App",

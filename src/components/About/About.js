@@ -59,9 +59,9 @@ function About() {
       <Col xs={8} md={6} lg={8}>
       <Card style={styles.cardBio}>
         <Card.Body >
-          <Card.Title >Who</Card.Title>
+          <Card.Title >Who...</Card.Title>
           <Card.Text style={styles.cardText}>
-          ...am I? Denver born, England educated, Nashville citizen. I first studied history and fine arts with a focus in cermics at Metropolitan State University of Denver, graduating Summa Cum Laude. I left for the UK and obtained my MA in Conservation of Museum and Archaeological Objects. It was this degree that brought me to Nashville, where I worked to help open the new Tennessee State Museum. I am now preparing for my future as full-stack MERN web-developer at Vanderbilt University.{" "}
+          ...am I? A full-stack MERN web developer with an interest in cyber security and UI/UX design. Denver born, England educated, Nashville citizen. I first studied history and fine arts at Metropolitan State University of Denver, graduating Summa Cum Laude. I left Denver for the UK and obtained my MA in Conservation of Museum and Archaeological Objects. It was this degree that brought me to Nashville, where I worked to help open the new Tennessee State Museum. After a thrilling experience in this multi-million dollar project, I pursued my certificate in full-stack web develpment at Vanderbilt University in 2020.{" "}
           </Card.Text>
         </Card.Body>
        

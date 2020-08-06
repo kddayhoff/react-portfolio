@@ -28,7 +28,7 @@ function Project(props) {
   return (
     <Container className="container-fluid d-inline-flex">
       <Row>
-        <Col fluid xs={true}>
+        <Col fluid xs={8} md={6} lg={6}>
           <Card style={styles.card}>
             <Card.Img variant="top" src={props.image} />
             <Card.Body >

@@ -52,9 +52,9 @@ function What() {
       <Col xs={8} md={6} lg={8}>
       <Card style={styles.cardBio}>
         <Card.Body >
-          <Card.Title  id="what">What</Card.Title>
+          <Card.Title  id="what">What...</Card.Title>
           <Card.Text style={styles.cardText}>
-          ..do I know? Below you will find many projects that show my progression and growth as a full-stack web-developer. Languages and technologies utilized and studied are: HTML, CSS, JavaScript, jQuery, Node.js, Express, SQL, MySQL, Sequelize, MongoDB, Mongoose, ReactJS, Robo 3T, Bootstrap, Materialize, MaterialUI, API, Sass{" "}
+          ..do I know? Below you will find many projects that show my progression and growth as a full-stack web-developer. Languages and technologies utilized and studied are: HTML, CSS, JavaScript, jQuery, Node.js, Express, SQL, MySQL, Sequelize, MongoDB, Mongoose,Passport Local Authentication, ReactJS,  Robo 3T, Bootstrap, Materialize, MaterialUI, API, Sass{" "}
           </Card.Text>
         </Card.Body>
        
