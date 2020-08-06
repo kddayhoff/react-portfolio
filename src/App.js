@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 import About from "./components/About/About";
 import ContactCard from "./components/ContactCard/Contact";
 import Project from "./components/ProjectCardContent";
-import Navbar from "./components/Navbar/Navbar"
-import Footer from "./components/Footer/Footer"
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import What from "./components/What/What";
 import "./assets/style.css";
 import "./App.css";
 
@@ -20,6 +21,7 @@ class App extends Component {
       </Navbar>
       <div>
         <About />
+        <What />
         <Project /> 
         <ContactCard />
     </div>

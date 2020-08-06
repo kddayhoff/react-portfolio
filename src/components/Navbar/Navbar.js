@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar"
 
+
 const styles = {
     navbar: {
         background: "darkgray",
@@ -19,9 +20,11 @@ function Header() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
+    
       <Nav.Link href="#who">Who?</Nav.Link>
       <Nav.Link href="#what">What?</Nav.Link>
       <Nav.Link href="#how">How?</Nav.Link>
+      <Nav.Link href="mailto:kddayhoff@gmail.com">Email</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
