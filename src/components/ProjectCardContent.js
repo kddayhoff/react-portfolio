@@ -58,7 +58,7 @@ class cardContent extends Component {
       render(){
     return (
         <Container>
-        <CardDeck>
+        <CardDeck style={{display: 'flex', flexDirection: 'row', flexWrap:'wrap'}}>
             {this.state.projects.map(project => (
               <ProjectCard
               key={project.id}

@@ -19,16 +19,18 @@ const styles = {
         borderWidth: 5,
         borderRadius: 5,
         padding: 0,
-        minWidth: 100,
-        fontFamily: 'Sawarabi Gothic'
+        minWidth: 300,
+        maxWidth:300,
+        fontFamily: 'Sawarabi Gothic',
+        flex:1
     },
 }
 
 function Project(props) {
   return (
-    <Container className="container-fluid d-inline-flex">
-      <Row>
-        <Col fluid xs={8} md={6} lg={6}>
+    // <Container className="container-fluid d-inline-flex">
+    //   <Row>
+    //     <Col fluid xs={8} md={6} lg={6}>
           <Card style={styles.card}>
             <Card.Img variant="top" src={props.image} />
             <Card.Body >
@@ -45,9 +47,9 @@ function Project(props) {
               </Card.Text>
             </Card.Body>
           </Card>
-        </Col>
-      </Row>
-    </Container>
+    //     </Col>
+    //   </Row>
+    // </Container>
   );
 }
 
